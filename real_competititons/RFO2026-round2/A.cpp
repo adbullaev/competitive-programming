@@ -11,14 +11,14 @@ int main()
         scanf("%d",&n);
         string s;
         cin >> s;
-        size_t pos = s.find("4");
+        size_t pos = s.find('4');
         if(pos !=string::npos && n-pos >=9)
         {
-            printf("YES");
+            printf("YES\n");
         }
         else
         {
-            printf("NO");
+            printf("NO\n");
         }
     }
     
