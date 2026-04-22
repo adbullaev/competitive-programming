@@ -42,7 +42,7 @@ void st(long long pos,long long val,long long v,long long l,long long r)
 long long sum(long long l,long long r,long long v,long long lv,long long rv)
 {
     if(lv>=r || l>=rv) return 0;
-    if(lv<=l && r >= rv) return T[v];
+    if(l <= lv && rv <= r) return T[v];
     long long mid = (lv+rv)/2;
     return sum(l,r,2*v+1,lv,mid) + sum(l,r,2*v+2,mid,rv);
 }
@@ -50,20 +50,20 @@ long long sum(long long l,long long r,long long v,long long lv,long long rv)
 int main()
 {
     scanf("%lld",&n);
-    vec.resize(n,0);
+    vec.resize(n+1,0);
     T.resize(4*(n+1),0);
-    vecb.resize(n,0);
-    vec_ans.resize(n,0);
+    vecb.resize(n+1,0);
+    vec_ans.resize(n+1,0);
     for(long long i=0;i<n;i++)
     {
         scanf("%lld",&vec[i]);
     }
-    build(0,0,n);
+    build(0,0,n+1);
     for(long long i = 0;i<n;i++)
     {
-        long long bigger = sum(vec[i]+1,n,0,0,n);
-        st(vec[i],1,0,0,n);  
-        vec_ans[vec[i]]= bigger;
+        long long bigger = sum(vec[i]+1,n+1,0,0,n+1);
+        st(vec[i],1,0,0,n+1);  
+        vec_ans[i]= bigger;
     }
     for(long long i = 0; i<n;i++) printf("%lld ",vec_ans[i]);
 }

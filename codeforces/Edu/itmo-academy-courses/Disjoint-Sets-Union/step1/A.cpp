@@ -1,0 +1,65 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct DSU {
+
+    vector<long long> p;
+    vector<long long> sz;
+
+    DSU(long long n)
+    {
+        p.resize(n+1);
+        iota(p.begin(),p.end(),0);
+        sz.assign(n+1,1);
+    }
+
+    long long get(long long a)
+    {
+        return p[a] = (a == p[a] ? a : get(p[a]));
+    }
+
+    void unite(long long a,long long b)
+    {
+        a = get(a);
+        b = get(b);
+        
+        if(a != b)
+        {
+            if(sz[a] == sz[b]) sz[a]++;
+            if(sz[a]>sz[b]) p[b] = a ;
+            else p[a] = b;
+        }
+    }
+};
+
+
+long long n,m;
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+    cin >> n >> m;
+
+    DSU dsu(n);
+
+    while(m--)
+    {
+
+        string operation;
+        long long op1,op2;
+
+        cin >> operation >> op1 >> op2;
+
+        if(operation == "union") dsu.unite(op1,op2);
+        if(operation == "get")
+        {
+            long long first = dsu.get(op1);
+            long long second = dsu.get(op2);
+
+            if(first == second) cout << "YES" << "\n";
+            else cout << "NO" << "\n";
+        }
+    }
+}
