@@ -3,13 +3,25 @@ using namespace std;
 
 long long start_vertex;
 long long n;
+vector<vector<int>> g;
+vector<bool> used(n, false);
+
+
+vector<bool> visited;
+
+void dfs(int v) {
+    visited[v] = true;
+    for (int u : g[v]) {
+        if (!visited[u])
+            dfs(u);
+    }
+}
 
 int main()
 {
-    vector<vector<int>> g;
-    vector<bool> used(n, false);
+    
+// iterative
     vector<int> st;
-
     st.push_back(start_vertex);
     used[start_vertex] = true;
 

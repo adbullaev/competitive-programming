@@ -3,11 +3,13 @@
 🔗 Link: https://cses.fi/problemset/task/1668
 
 💡 Core Idea:
+    We need to count number of connected components.
+    Divide each one to two teams by making childs team differ from his parents
     
     
 ⏱️ Complexity Analysis:
-   - Time Complexity: O(N * M) — 
-   - Space Complexity: O(N * M) — 
+   - Time Complexity: O(N + M) — standard FUll-DFS
+   - Space Complexity: O(N * M) — Adjacency list
 */
 #include <bits/stdc++.h>
 using namespace std;
