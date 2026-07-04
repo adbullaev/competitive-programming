@@ -12,7 +12,7 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 + [ ] Strong Connectivity & Paths: (SCC, Eulerian/Hamiltonian paths) 0 / 9
 + [ ] Network Flow: (Max Flow, Min Cut, Matchings) 0 / 4
   
-#### Total Progress: 1 / 36 🟩⬛⬛⬛⬛⬛⬛⬛⬛⬛ (0%)
+#### Total Progress: 6 / 36 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (18%)
 
 ---
 
@@ -21,7 +21,13 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 ### 1. Basic Traversals & Connectivity
 | Task | Status | Source Code |
 | :--- | :---: | :---: |
-| 1. Counting Rooms | ⏳ | [counting_rooms.cpp](./counting_rooms.cpp) |
+| 1. Counting Rooms | ✅ | [counting_rooms.cpp](./counting_rooms.cpp) |
+| 2. Labyrinth | ✅ | [Labyrinth.cpp](./Labyrinth.cpp) |
+| 3. Building Roads | ✅ | [Building_Roads.cpp](./Building_Roads.cpp) |
+| 4. Message_Route | ✅ | [Message_Route.cpp](./Message_Route.cpp) |
+| 5. Building_Teams | ✅ | [Building_Teams.cpp](./Building_Teams.cpp) |
+| 6. Round_Trip | ✅ | [Round_Trip.cpp](./Round_Trip.cpp) |
+| 7. Monsters | ⏳ | [Monsters.cpp](./Monsters.cpp) |
 
 
 ---
