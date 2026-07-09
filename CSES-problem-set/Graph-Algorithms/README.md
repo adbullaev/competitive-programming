@@ -5,14 +5,14 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 ---
 
 ## 📈 Progress Tracker
-+ [ ] Searches & Connectivity: (BFS/DFS, компоненты связности) 0 / 7
-+ [ ] Shortest Paths: (SSSP, Bellman-Ford, Dijkstra, Floyd-Warshall) 0 / 7
++ [x] Searches & Connectivity: (BFS/DFS, компоненты связности) 6 / 7
++ [ ] Shortest Paths: (SSSP, Bellman-Ford, Dijkstra, Floyd-Warshall) 1 / 7
 + [ ] Directed Acyclic Graphs (DAGs): (Topological Sort, DP на графах) 0 / 4
 + [ ] Special Structures: (Successor Graphs, MST) 0 / 5
 + [ ] Strong Connectivity & Paths: (SCC, Eulerian/Hamiltonian paths) 0 / 9
 + [ ] Network Flow: (Max Flow, Min Cut, Matchings) 0 / 4
   
-#### Total Progress: 6 / 36 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (18%)
+#### Total Progress: 7 / 36 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (18%)
 
 ---
 
@@ -28,6 +28,7 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 | 5. Building_Teams | ✅ | [Building_Teams.cpp](./Building_Teams.cpp) |
 | 6. Round_Trip | ✅ | [Round_Trip.cpp](./Round_Trip.cpp) |
 | 7. Monsters | ⏳ | [Monsters.cpp](./Monsters.cpp) |
+| 8. Shortest Routes I | ✅ | [Shortest_Routes_I.cpp](./Shortest_Routes_I.cpp) |
 
 
 ---

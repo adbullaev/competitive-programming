@@ -17,5 +17,31 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    /* here write your code */
+    long long t;
+    cin >> t;
+
+    while(t--)
+    {
+        long long k;
+        cin >> k;
+
+        long long two = 0;
+        long long three = 0;
+
+        for(long long i = 0;i<k;i++)
+        {   
+            long long inp;
+            cin >> inp;
+
+            if(inp >= 3) three++;
+            else if(inp == 2) two++;
+        }
+
+        if(three >= 1) cout << "YES\n";
+        else if (two >= 2) cout << "YES\n";
+        else cout << "NO\n";
+    }
+
+
+    
 }

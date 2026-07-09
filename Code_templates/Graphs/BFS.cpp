@@ -5,7 +5,7 @@ using namespace std;
 vector<vector<long long>> graph; // adjacency list
 queue<long long> q;
 vector<long long> dist;// list of distances
-vector<long long> parents;// lost of parents;
+vector<long long> parents;// list of parents;
 vector<long long> used;// lost of parents;
 long long s=1;// source
 long long n=10;// number of nodes
