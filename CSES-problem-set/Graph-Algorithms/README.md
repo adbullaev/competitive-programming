@@ -6,13 +6,13 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 
 ## 📈 Progress Tracker
 + [x] Searches & Connectivity: (BFS/DFS, компоненты связности) 6 / 7
-+ [ ] Shortest Paths: (SSSP, Bellman-Ford, Dijkstra, Floyd-Warshall) 1 / 7
++ [ ] Shortest Paths: (SSSP, Bellman-Ford, Dijkstra, Floyd-Warshall) 5 / 7
 + [ ] Directed Acyclic Graphs (DAGs): (Topological Sort, DP на графах) 0 / 4
 + [ ] Special Structures: (Successor Graphs, MST) 0 / 5
 + [ ] Strong Connectivity & Paths: (SCC, Eulerian/Hamiltonian paths) 0 / 9
 + [ ] Network Flow: (Max Flow, Min Cut, Matchings) 0 / 4
   
-#### Total Progress: 7 / 36 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (18%)
+#### Total Progress: 12 / 36 🟩🟩🟩⬛⬛⬛⬛⬛⬛⬛ (33%)
 
 ---
 
@@ -29,10 +29,15 @@ My personal repository containing solutions to the CSES "Graph Algorithms" secti
 | 6. Round_Trip | ✅ | [Round_Trip.cpp](./Round_Trip.cpp) |
 | 7. Monsters | ⏳ | [Monsters.cpp](./Monsters.cpp) |
 | 8. Shortest Routes I | ✅ | [Shortest_Routes_I.cpp](./Shortest_Routes_I.cpp) |
+| 9. Shortest Routes II | ✅ | [Shortest_Routes_II.cpp](./Shortest_Routes_II.cpp) |
+| 10. High Score | ✅ | [High_Score.cpp](./High_Score.cpp) |
+| 12. Cycle Finding | ✅ | [Cycle_Finding.cpp](./Cycle_Finding.cpp) |
+| 15. Course Schedule | ✅ | [Course_Schedule.cpp](./Course_Schedule.cpp) |
+
 
 
 ---
 
 ## 🛠️ Environment & Reference
 - **Language:** C++(any_version)
-- **Theoretical Base:** MIT 6.1200J (Discrete Mathematics), MIT 6.006 (Introduction to Algorithms), Codeforces EDU.
+- **Theoretical Base:** MIT 6.1200J (Discrete Mathematics), MIT 6.006 (Introduction to Algorithms), Codeforces EDU , [CP-Algorhitms](https://cp-algorithms.com/).
