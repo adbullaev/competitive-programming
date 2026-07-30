@@ -4,18 +4,20 @@ using namespace std;
 long long start_vertex;
 long long n;
 vector<vector<int>> g;
+
+
 vector<bool> used(n, false);
 
-
-vector<bool> visited;
+vector<long long> parents(n+1);
 
 void dfs(int v) {
-    visited[v] = true;
+    used[v] = true;
     for (int u : g[v]) {
-        if (!visited[u])
+        if (!used[u])
             dfs(u);
     }
 }
+
 
 int main()
 {
