@@ -5,12 +5,12 @@ My personal repository containing solutions to the CSES "Dynamic Programming" se
 ---
 
 ## 📈 Progress Tracker
-+ [ ] Basic DP & Coin Problems: (Classical DP, Knapsack-like) 3 / 5
++ [x] Basic DP & Coin Problems: (Classical DP, Knapsack-like) 5 / 5
 + [ ] Sequences & Paths: (LIS, Grid DP, Path Counting) 0 / 5
 + [ ] Advanced DP Techniques: (Digit DP, Bitmask DP, Broken Profile) 0 / 8
 + [ ] Trees & Optimization: (Tree DP, Matrix Exponentiation, Convex Hull Trick) 0 / 5
   
-#### Total Progress: 3 / 23 🟩⬛⬛⬛⬛⬛⬛⬛⬛⬛ (13%)
+#### Total Progress: 5 / 23 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (21%)
 
 ---
 
@@ -22,8 +22,8 @@ My personal repository containing solutions to the CSES "Dynamic Programming" se
 | 1. Dice Combinations | ✅ | [Dice_Combinations.cpp](./Dice_Combinations.cpp) |
 | 2. Minimizing Coins | ✅ | [Minimizing_Coins.cpp](./Minimizing_Coins.cpp) |
 | 3. Coin Combinations I | ✅ | [Coin_Combinations_I.cpp](./Coin_Combinations_I.cpp) |
-| 4. Coin Combinations II | ⏳ | [Coin_Combinations_II.cpp](./Coin_Combinations_II.cpp) |
-| 5. Removing Digits | ⏳ | [Removing_Digits.cpp](./Removing_Digits.cpp) |
+| 4. Coin Combinations II | ✅ | [Coin_Combinations_II.cpp](./Coin_Combinations_II.cpp) |
+| 5. Removing Digits | ✅ | [Removing_Digits.cpp](./Removing_Digits.cpp) |
 
 ### 2. Sequences & Paths
 | Task | Status | Source Code |
