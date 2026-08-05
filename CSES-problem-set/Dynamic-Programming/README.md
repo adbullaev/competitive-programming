@@ -10,7 +10,7 @@ My personal repository containing solutions to the CSES "Dynamic Programming" se
 + [ ] Advanced DP Techniques: (Digit DP, Bitmask DP, Broken Profile) 0 / 8
 + [ ] Trees & Optimization: (Tree DP, Matrix Exponentiation, Convex Hull Trick) 0 / 5
   
-#### Total Progress: 5 / 23 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (21%)
+#### Total Progress: 7 / 23 🟩🟩⬛⬛⬛⬛⬛⬛⬛⬛ (21%)
 
 ---
 
@@ -28,8 +28,8 @@ My personal repository containing solutions to the CSES "Dynamic Programming" se
 ### 2. Sequences & Paths
 | Task | Status | Source Code |
 | :--- | :---: | :---: |
-| 6. Grid Paths | ⏳ | [Grid_Paths.cpp](./Grid_Paths.cpp) |
-| 7. Book Shop | ⏳ | [Book_Shop.cpp](./Book_Shop.cpp) |
+| 6. Grid Paths | ✅ | [Grid_Paths.cpp](./Grid_Paths.cpp) |
+| 7. Book Shop | ✅ | [Book_Shop.cpp](./Book_Shop.cpp) |
 | 8. Array Description | ⏳ | [Array_Description.cpp](./Array_Description.cpp) |
 | 9. Counting Towers | ⏳ | [Counting_Towers.cpp](./Counting_Towers.cpp) |
 | 10. Edit Distance | ⏳ | [Edit_Distance.cpp](./Edit_Distance.cpp) |
