@@ -14,34 +14,46 @@ int main()
         long long n,m;
         cin >> n >> m;
 
-        set<char> st;
+        long long n_p = 0;
+        long long m_p = 0;
 
+        vector<long long> one;
+        vector<long long> two;
+        
         for(long long i = 0;i<n;i++)
         {
-            string s;
-            cin >> s;
-            st.insert(s[0]);
+            long long inp;
+            cin >> inp;
+            one.push_back(inp);
+        }
+        
+        for(long long i = 0;i<m;i++)
+        {
+            long long inp;
+            cin >> inp;
+            two.push_back(inp);
         }
 
-        bool exist = true;
-        while(m--)
+        for(long long i = 0;i<n-1;i++)
         {
-            string s;
-            cin >> s;
+            n_p += (one[i]-(one[i+1]-1));
+        }
+        n_p += one[n-1];
 
-            for(long long i = 0;i<s.size();i++)
-            {
-                if(st.find(tolower(s[i])) == st.end())
-                {
-                    exist = false;
-                }
-            }
-
-        }    
-
-        if(exist) cout << "YES\n";
-        else cout << "NO\n";
-
+        for(long long i = 0;i<m-1;i++)
+        {
+            m_p += (two[i]-(two[i+1]-1));
+        }
+        m_p += two[m-1];
+        
+        if(m_p == n_p)
+        {
+            cout << "1\n";
+        }
+        else if(n_p > m_p)
+        {
+            cout << "1\n";
+        } else cout << "2\n";
         
     }
     
