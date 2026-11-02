@@ -11,19 +11,15 @@ int main()
     long long t;
     cin >> t;
 
-    vector<set<long long>> sieve(INF);
-    for(long long i = 2;i<=INF;i++)
-    {
-        for(long long j = i;j<=INF;j+=i)
-        {
-            sieve[j].insert(i);
-        }
-    }
+    
+    
+    
+    
     
     while(t--)
     {
         long long n,x;
-        cin >> n >> x;
+         cin >> n >> x;
 
         vector<long long> a;
         for(long long i=0;i<n;i++)
@@ -32,22 +28,34 @@ int main()
             cin >> inp;
             a.push_back(inp);
         }
-
+        
         if(x == 1)
         {
             cout << 0 << "\n";
             continue;
         }
 
+        vector<long long> D;
+        for(long long i = 2;i*i<=x;i++)
+        {
+            if(x%i == 0)
+            {
+                D.push_back(i);
+                if(x/i != i) D.push_back(x/i);
+            }
+        }
+
+        D.push_back(x);
+
         long long result = 0;
 
-        for(long long c:sieve[x])
+        for(long long c:D)
         {
             long long local_result = 0;
 
             for(long long i = 0;i<n;i++)
             {
-                if(sieve[a[i]].count(c)) 
+                if(a[i]%c == 0) 
                 {
                     local_result+=a[i];
                 }
